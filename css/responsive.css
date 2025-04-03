@@ -75,6 +75,7 @@
         color: #fff;
     }
     #contact{
+        padding-top: 50px;
         background: url('../images/backgroundContact.jpg') no-repeat;
         background-size: cover;
         color: #fff;
@@ -89,6 +90,6 @@
     }
     #contact div a{
         color: #fff;
-        font-size: 30px;
+        font-size: 32px;
     }
 }
