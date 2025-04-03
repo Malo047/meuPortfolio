@@ -70,6 +70,7 @@
     #aboutMe{
         font-family: 'Montserrat', sans-serif;
         background: url('../images/backgroundAboutMe.avif') no-repeat;
+        background-size: cover;
         color: #fff;
     }
 }
