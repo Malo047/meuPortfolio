@@ -3,7 +3,7 @@
         font-family: 'Montserrat', sans-serif;
         width: 100vw;
         height: 100px;
-        background:url("../images/background_header.avif") no-repeat;
+        background:url("/public/images/background_header.avif") no-repeat;
     }
     header ul{
         display: flex;
@@ -40,7 +40,7 @@
         color: #fff;
         padding: 30px 25px;
         text-align: justify;
-        background: url('../images/backgroud.avif')no-repeat;
+        background: url('/public/images/backgroud.avif')no-repeat;
     }
     main #intro p{
         padding: 20px 0;
@@ -49,7 +49,7 @@
     /*Projects*/
     #projects{
         font-family: 'Montserrat', sans-serif;
-        background: url('../images/backgroundSecondary.jpg') ;
+        background: url('/public/images/backgroundSecondary.jpg') ;
         width: 100vw;
     }
 
@@ -68,7 +68,7 @@
     /*About me*/
     #aboutMe{
         font-family: 'Montserrat', sans-serif;
-        background: url('../images/backgroundAboutMe.avif') no-repeat;
+        background: url('/public/images/backgroundAboutMe.avif') no-repeat;
         color: #fff;
     }
 }
