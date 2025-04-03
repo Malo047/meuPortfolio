@@ -50,18 +50,19 @@
     /*Projects*/
     #projects{
         font-family: 'Montserrat', sans-serif;
-        background: url('../images/backgroundSecondary.jpg') ;
+        background: url('../images/backgroundProjects.jpg') ;
         width: 100vw;
+        color: #fff;
     }
 
-    #projects h2, #aboutMe h2{
+    #projects h2, #aboutMe h2, #contact h2{
         font-family: 'Inter', sans-serif;
         text-decoration: underline;
         text-align: center;
         padding: 30px 25px;
 
     }
-    #projects p, #aboutMe p{
+    #projects p, #aboutMe p, #contact p{
         text-align: justify;
         font-weight: 400;
         padding: 0 15px 30px 15px;
@@ -69,8 +70,25 @@
     /*About me*/
     #aboutMe{
         font-family: 'Montserrat', sans-serif;
-        background: url('../images/backgroundAboutMe.avif') no-repeat;
+        background: url('../images/backgroundContact.jpg') no-repeat;
         background-size: cover;
         color: #fff;
+    }
+    #contact{
+        background: url('../images/backgroundContact.jpg') no-repeat;
+        background-size: cover;
+        color: #fff;
+    }
+    #contact div{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        width: 100%;
+        color: #fff;
+        padding-bottom: 30px;
+    }
+    #contact div a{
+        color: #fff;
+        font-size: 30px;
     }
 }
