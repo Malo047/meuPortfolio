@@ -1,0 +1,37 @@
+/*Header*/
+header{
+    font-family: 'Montserrat', sans-serif;
+    border: solid 1px red;
+    height: 100px;
+    background: url('../images/background_header.avif')repeat-x;
+    font-size: cover;
+}
+header ul{
+    height: 100px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 15px;
+}
+header ul li a{
+    color: #fff;
+}
+header ul li a:hover{
+    border-bottom: solid 2px #fff;
+}
+
+/*Main*/
+main{
+    display: grid;
+    grid-template-areas: "apresentation intro";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1, 680px);
+    background: url('../images/backgroundDesktop.jpeg');
+}
+#apresentation{
+    grid-area: apresentation;
+}
+#intro{
+    grid-area: intro;
+}
